@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "main": "bot.js",
   "scripts": {
-    "start": "nodemon ./bot.js"
+    "start": "env-cmd nodemon ./bot.js"
   },
   "author": "Egor Prokhorov",
   "license": "ISC",
   "description": "",
   "dependencies": {
     "effector": "23.2.2",
+    "env-cmd": "10.1.0",
     "nodemon": "3.1.4",
     "telegraf": "4.16.3"
   }
